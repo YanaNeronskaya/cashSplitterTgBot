@@ -1,7 +1,11 @@
 const TelegramBot = require('node-telegram-bot-api');
 
+const port = process.env.PORT || 443;
+const host = '0.0.0.0';
+const externalUrl = process.env.CUSTOM_ENV_VARIABLE || 'https://my-app.herokuapp.com';
 const token = '1047838784:AAECHWlmZ-MXofzXu7LDL3ZU-5jZQPAdeDg';
-const bot = new TelegramBot(token, {polling: true});
+const bot = new TelegramBot(token, {webHook: {port: port, host: host}});
+bot.setWebHook(externalUrl + ':443/bot' + token);
 
 const money = [];
 
