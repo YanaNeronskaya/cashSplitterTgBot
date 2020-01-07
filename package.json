@@ -1,0 +1,23 @@
+{
+  "name": "cashsplittertgbot",
+  "version": "1.0.0",
+  "description": "Telegram bot, which split the entry summ on two and ping another person",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanaNeronskaya/cashSplitterTgBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanaNeronskaya/cashSplitterTgBot/issues"
+  },
+  "homepage": "https://github.com/YanaNeronskaya/cashSplitterTgBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
