@@ -1,11 +1,11 @@
 {
   "name": "cashsplittertgbot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Telegram bot, which split the entry summ on two and ping another person",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
